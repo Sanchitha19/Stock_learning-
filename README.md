@@ -1,73 +1,130 @@
-# Welcome to your Lovable project
 
-## Project info
+# Stock_Learning
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Project Overview
 
-## How can I edit this code?
+This is a modern web application built using a fast and scalable frontend stack. The project focuses on performance, clean UI design, and maintainable architecture.
 
-There are several ways of editing your application.
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* **Vite** – Lightning-fast build tool and development server
+* **TypeScript** – Strongly typed JavaScript for scalable development
+* **React** – Component-based frontend library
+* **shadcn-ui** – Reusable and accessible UI components
+* **Tailwind CSS** – Utility-first CSS framework for responsive design
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Installation & Setup
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Make sure you have installed:
 
-Follow these steps:
+* **Node.js** (recommended via nvm)
+* **npm**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+To install Node using nvm:
+
+[https://github.com/nvm-sh/nvm#installing-and-updating](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+---
+
+### Clone the Repository
+
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+### Run Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start with hot-reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+project-root/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   ├── lib/
+│   └── main.tsx
+│
+├── public/
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Modern UI with reusable component architecture
+* Type-safe development using TypeScript
+* Responsive design with Tailwind CSS
+* Optimized build configuration using Vite
+* Clean and scalable folder structure
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## Deployment
 
-## Can I connect a custom domain to my Lovable project?
+To create a production build:
 
-Yes, you can!
+```bash
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To preview the production build locally:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+npm run preview
+```
+
+You can deploy the generated `dist/` folder to any static hosting service such as:
+
+* Vercel
+* Netlify
+* GitHub Pages
+* AWS S3
+
+---
+
+## Customization
+
+You can:
+
+* Add new components inside `src/components`
+* Create new routes/pages inside `src/pages`
+* Modify Tailwind configuration inside `tailwind.config.ts`
+* Update global styles inside your CSS entry file
+
+---
+
+## Author
+
+Developed and maintained by **[Sanchitha]**
+
+
