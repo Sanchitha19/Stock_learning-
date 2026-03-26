@@ -1,5 +1,5 @@
 
-# Stock_Learning
+# TradeX
 
 ## Project Overview
 
